@@ -9,3 +9,32 @@ $navbar-height: 3.6rem;
 $navbar-color: #fff;
 $navbar-offline-color: #333;
 $navbar-link-color: #2c3e50;
+
+
+/* Color */
+$primaryColor1: hsl(220, 98%, 61%);
+$primaryColor2: linear-gradient(135deg, hsl(192, 100%, 67%) 0%, hsl(280, 87%, 65%) 100%);
+$white: #fff;
+
+:root {
+  --bgColor: hsl(235, 24%, 19%);
+  --containerColor: hsl(235, 24%, 19%);
+  --textColor: hsla(235, 39%, 85%, 1);
+  --completedColor: hsla(233, 14%, 35%);
+  --placeholderColor: hsla(234, 11%, 52%, 1);
+  --neutralTextColor: hsla(235, 16%, 42%, 1);
+  --checkBorder: hsla(235, 14%, 26%, 1);;
+}
+
+.theme-light {
+  --bgColor: hsla(0, 0%, 98%, 1);
+  --containerColor: hsla(0, 0%, 100%, 1);
+  --textColor: hsla(235, 19%, 35%, 1);
+  --completedColor: hsla(233, 11%, 84%, 1);
+  --placeholderColor: hsla(235, 9%, 61%, 1);
+  --neutralTextColor: hsla(235, 9%, 61%, 1);
+  --checkBorder: hsla(236, 32%, 92%, 1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+$textFont: 'Josefin Sans', sans-serif;
